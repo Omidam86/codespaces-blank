@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: IRANSans, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6930c3;
+    color: #fff;
+  }
+  button {
+    background-color: #8a2be2;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0px 3px 0px #5e1897;
+    font-family: IRANSans;
+  }
+  
+  button:hover {
+    background-color: #702899;
+    cursor: pointer;
+  }
+  
+  header {
+    font-family: IRANSans; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://s8.uupload.ir/files/untitled_oogu.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 15px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-gap: 50px;
+  }
+  
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .product-item {
+    background-color: #1a2a6c;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .cart {
+    background-color: #1a2a6c;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .cart-container {
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .cart-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #0077be;
+    padding: 10px 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
